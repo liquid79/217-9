@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- This start file was built by Paul Cheney  -->
+  <title>Lollipop Shop: Home</title>
+  <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- LOAD THE LATEST VERSION OF JQUERY-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <!-- *************** LOAD THE GOOGLE FONT ****************** -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+  <!-- *************** STYLE SHEETS ****************** -->
+  <link href="scss/app.css" rel="stylesheet">
+  <!-- *************** FAVORITE ICON ****************** -->
+  <link rel="icon" type="image/ico" href="favicon.ico"/>
+  <!-- *************** SCRIPT TO MAKE THE MOBILE NAV EXPAND DOWN ****************** -->
+  <script>
+    $(document).ready(function () {
+      $(".nav-button").click(function () {
+        $(".nav-button,.primary-nav").toggleClass("open");
+      });
+    });
+  </script>
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="colorbar"></div>
+<!-- end color bar -->
+
+<div id="headerWrapper">
+  <header class="clearfix">
+
+    <h1>Your Lollipop Shop</h1>
+
+    <h2>Helping you start every day with a surgar fix.</h2>
+
+    <a class="tel" tabindex="-1" href="tel:(800) 555-1234">(800) 555-1234</a>
+
+
+    <ul class="social">
+      <li><a href="#"><span class="fa fa-facebook fa-fw"></span></a></li>
+      <li><a href="#"><span class="fa fa-pinterest fa-fw"></span></a></li>
+      <li><a href="#"><span class="fa fa-twitter fa-fw"></span></a></li>
+      <li><a href="#"><span class="fa fa-google-plus fa-fw"></span></a></li>
+    </ul>
+
+
+  </header>
+</div>
+<!-- end of header wrapper -->
+<div id="hero">
+
+</div>
+
+<div id="navWrapper">
+  <nav class="nav ">
+    <ul class="primary-nav clearfix">
+      <li class="selected"><a href="index.html">HOME</a></li>
+      <li class="parent"><a href="flavors.html">FLAVORS</a>
+        <ul>
+          <li><a href="flavors.html">Strawberry</a></li>
+          <li><a href="flavors.html">Orange</a></li>
+          <li><a href="flavors.html">Lemon</a></li>
+        </ul>
+      </li>
+      <li><a href="specials.html">SPECIALS</a></li>
+      <li><a href="who.html">WHO WE ARE</a></li>
+    </ul>
+    <!-- phone nav button -->
+    <button class="nav-button">Toggle Navigation</button>
+  </nav>
+</div>
+
+
+<div id="contentWrapper">
+  <div class="row">
+    <div class="column-12">
+      <h1>HOME</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column-6">
+      <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+        the leap into electronic typesetting, remaining essentially unchanged.
+      </p>
+    </div>
+    <div class="column-6">
+      <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+        the leap into electronic typesetting, remaining essentially unchanged.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="column-4">
+      <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book.
+      </p>
+    </div>
+    <div class="column-4">
+      <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book.
+      </p>
+    </div>
+    <div class="column-4">
+      <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book.
+      </p>
+    </div>
+    <div class="row">
+      <div class="column-3">
+        <p>
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+          galley of type and scrambled it to make a type specimen book.
+        </p>
+      </div>
+      <div class="column-6">
+        <p>
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+          galley of type and scrambled it to make a type specimen book.
+        </p>
+      </div>
+      <div class="column-3 bgcolor">
+        <p>
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+          galley of type and scrambled it to make a type specimen book.
+        </p>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="column-2">
+        <img src="img/car1.jpg"/>
+      </div>
+      <div class="column-2">
+        <img src="img/car2.jpg"/>
+      </div>
+      <div class="column-2">
+        <img src="img/car3.jpg"/>
+      </div>
+      <div class="column-2">
+        <img src="img/car4.jpg"/>
+      </div>
+      <div class="column-2">
+        <img src="img/car5.jpg"/>
+      </div>
+      <div class="column-2">
+        <img src="img/car6.jpg"/>
+      </div>
+    </div>
+
+  </div>
+  <!-- end of content wrapper -->
+
+
+  <div id="footerWrapper">
+    <footer>
+      <p> Copyright &copy; 2014 &bull; Your Lollipop Shop &bull; 123 W. Sugar Street &bull; 1-800-555-1234</p>
+    </footer>
+  </div>
+  <!-- end of footer wrapper -->
+
+</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/*this is where you put your global styles*/
+
+$base_text: 1em;
+$font_primary: Verdana, Arial, sans-serif;
+$font_secondary: 13px;
+$font_normal: 12px;
+
+/* variables for all colors in project*/
+
+$base_color: #E6E1D88; //background color
+$primary_color: #e61b10; //red color
+$secondary_color: #3B4044; //black header color
+
+
+
+/* variables for all fonts */
+//$font_1: ;
+
+/* variables for media queries */
+$media_mobile: "only screen and (max-width: 1141px)";
+$media_desktop: "only screen and (min-width: 1140px)";
+$media_tablet: "only screen and (min-width: 641px)";
+
+/* set global background and primary font colors */
+$background_color: #ffffff;
+$font_color1: #000000;
+$nav_button1: rgba(0, 0, 0, .1);
+$mobile_background1: #e61b10;
+$prime_nav_color1: white;
+$mobile_background2: rgba(0, 0, 0, .5);
+$prime_nav_a_after1: rgba(255, 255, 255, .4);
+$prime_nav_a_hover: rgba(0, 0, 0, .75);
+$desktop_background: #e22121;
+$nav_ul_li_a1: #FFF;
+$nav_ul_li_a_hover: rgba(0, 0, 0, 0.1);
+$nav_selected: rgba(0, 0, 0, 0.3);
+$nav_ul_li_ul: #B00;
+$phone_body1: #E6E1D8;
+$phone_body_color: #494948;
+$phone_head_1: #3B4044;
+$header_h1: #fff;
+$header_h2: #ddd;
+$header_a: #FFF !important;
+$header_social_li: rgba(255, 255, 255, 0.1);
+$header_social_li_a_hover: #fff000;
+$phone_wrapper: #e22121;
+$wrapper_background1: #9800ff;
+$wrapper_hr: #d6d6ce;
+$color_1: #f9f8c1;
+$color_2: #ffc8c5;
+$color_3: #ffddc1;
+$footer_wrapper: #979791;
+
+/* row styles that are global*/
+
+
+/* column styles that are global */
+
+
+/*paragraph styles that are global */
+
+
+/* variables for lighter/darker hover colors ... use rgba or lighten/darken*/
